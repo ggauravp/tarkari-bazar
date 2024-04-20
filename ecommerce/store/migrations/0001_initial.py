@@ -20,7 +20,7 @@ class Migration(migrations.Migration):
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('name', models.CharField(max_length=200)),
                 ('price', models.FloatField()),
-                ('digital', models.BooleanField(blank=True, default=False, null=True)),
+                #('digital', models.BooleanField(blank=True, default=False, null=True)),
             ],
         ),
         migrations.CreateModel(
